@@ -9,7 +9,7 @@ int main()
     cout << "Enter the number of terms: ";
     cin >> n;
     cout <<"\n  The Fibonacci sequence is:";
-    for (int i=0; i<n ;i++) {           										//loop works fine till the condition is TRUE
+    for (int i=0; i<n ;i++) {           					//loop works fine till the condition is TRUE
         cout<<" "<<first;
         next=first+second;
         first=second;
